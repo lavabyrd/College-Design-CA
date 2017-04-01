@@ -1,0 +1,20 @@
+#header_bar {
+  color: red;
+  background-color: green;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+#body_div {
+  float:left;
+  border: 10px black solid;
+  padding-right; 10px;
+  overflow: hidden;
+}
+#right_side_div {
+  float:left;
+  border: 10px green solid;
+  padding-left; 30px;
+  overflow: hidden;
+}
