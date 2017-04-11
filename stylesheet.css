@@ -19,6 +19,7 @@
     list-style: none;
     text-align: center;
     margin: 0;
+    margin-top: 10px;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     
@@ -28,9 +29,15 @@
     font-size: 20px;
     display: inline-block;
 }
-#header_menu li  a {
+#header_menu  a {
     text-decoration: none;
     color:red;
+}
+#header_menu .active li {
+    background-color:aquamarine;
+}
+#header_menu a:hover li {
+    background-color: aqua;
 }
 /*
 @media (max-width: 680px) {
